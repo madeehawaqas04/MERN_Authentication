@@ -1,0 +1,48 @@
+.a1
+{
+
+    width: "50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100";
+}
+
+.cprogress
+{
+   width: "20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100";
+}
+
+.progress1
+{
+  width: "40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+}
+
+.progress2
+{
+   width: "60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+}
+
+.progress3
+{
+   width: "80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+}
+
+
+.progress4
+{
+   width: "100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+}
+
+.cimg
+{
+   width: "25rem;"
+}
+
+.toggled
+{
+    overflow: visible;
+    width: 6.5rem!important;
+}
+
+.toggledTopNav
+{
+    width: 0!important;
+    overflow: hidden;
+}
