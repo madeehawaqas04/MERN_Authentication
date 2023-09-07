@@ -37,7 +37,7 @@ export const signinUser = (user) => {
 
     return function (dispatch) {
         console.log('in axios');
-        axios.post('http://localhost:8000/signinUser', user)
+        axios.post('/signinUser', user)
             .then((resp) => {
                 console.log('under axios');
                 console.log("resp", resp);
@@ -66,7 +66,7 @@ export const signinUser = (user) => {
 export const signupUser = (user) => {
     console.log('signup User');
     return function (dispatch) {
-        axios.post('http://localhost:8000/register', user)
+        axios.post('/register', user)
             .then((resp) => {
                 console.log("resp", resp);
                 dispatch(userSignup("/"));
