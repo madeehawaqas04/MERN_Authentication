@@ -87,7 +87,7 @@ export const updateUser = (user,id) => {
    
     console.log(user);
     return function (dispatch) {
-        axios.patch(`http://localhost:8000/updateuser/${id}`,user)
+        axios.patch(`/updateuser/${id}`,user)
             .then((resp) => {
                 console.log("resp", resp);
                 dispatch(userUpdated());
